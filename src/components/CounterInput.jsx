@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { decrementAction, incrementAction } from './actionCreater/Action'
+import { decrementAction, incrementAction } from './actionCreator/Action'
 
 const CounterInput = ({ count, setCount }) => {
     const dispatch = useDispatch()

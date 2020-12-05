@@ -1,6 +1,6 @@
 //reducer is simple function with switch cases
 
-import { increment, decrement } from '../actionCreater/Action'
+import { increment, decrement } from '../actionCreator/Action'
 
 const initailState = {
     count: 0
